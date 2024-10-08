@@ -1,5 +1,5 @@
 body { 
-  background-image: url("../images/black.jpg"); 
+  background-image: url("images/black.jpg"); 
 }
 
 #page-wrapper { 
@@ -34,7 +34,7 @@ body {
 }
 
 #content-wrapper { 
-  background-image: url("../images/repeating.png");
+  background-image: url("images/repeating.png");
 float: left;
 }
 
@@ -60,7 +60,6 @@ h2 strong
   position: relative;
   right: 50%;
 }
-
 
 #main-nav { 
   float: left;
@@ -88,11 +87,9 @@ strong {
   font-weight: 900;
 }
 
-
 { position: relative;
 margin-top: 40px;
 border-radius: 12px 12px 0px 0px;}
-
 
 { min-height: 150px;
 width: 200px;

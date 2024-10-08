@@ -36,7 +36,9 @@ font-weight: 900;}
 .image-r
 #side-content
 
-#main-nav
+#main-nav { float: left;
+width: 100%;
+background-color: #333;}
 #main-nav ul
 #main-nav ul li
 #main-nav ul li a
@@ -84,10 +86,6 @@ margin: 10px 0 10px 20px;}
 { min-height: 150px;
 width: 200px;
 float: left;}
-
-{ float: left;
-width: 100%;
-background-color: #333;}
 
 { padding: 10px 25px;
 display: block;

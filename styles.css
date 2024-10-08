@@ -33,8 +33,9 @@ body {
 #header #toplink
 
 #footer { 
-  background-color: #ccc;
-  color: #333;
+  min-height: 150px;
+  width: 200px;
+  float: left;
 }
 
 #content-wrapper { 
@@ -91,9 +92,10 @@ strong {
   font-weight: 900;
 }
 
-{ min-height: 150px;
-width: 200px;
-float: left;}
+{ 
+  background-color: #ccc;
+  color: #333;
+}
 
 { padding: 10px 25px;
 display: block;

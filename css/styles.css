@@ -64,7 +64,10 @@ background-color: #333;}
 #main-nav ul li a
 #main-nav ul li a:hover
 
-#center
+#center { float: left;
+position: relative;
+right: 50%;}
+
 strong
 
 #footer { padding: 10px 25px;
@@ -96,7 +99,3 @@ float: left;}
 
 { background-color: #ccc;
 color: #333;}
-
-{ float: left;
-position: relative;
-right: 50%;}

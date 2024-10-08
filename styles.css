@@ -29,7 +29,11 @@ body {
 float: left;
 }
 
-#main-content
+#main-content { 
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
 h2 strong
 
 .image-r { 
@@ -41,27 +45,33 @@ h2 strong
   margin: 10px 0 10px 20px;
 }
 
-
-
 #side-content
-#main-nav
-#main-nav ul
-#main-nav ul li
-#main-nav ul li a
-#main-nav ul li a:hover
-#center
-strong
 
-{ text-decoration: none;
+#main-nav { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  left:50%;
+}
+
+#main-nav ul
+
+#main-nav ul li { 
+text-decoration: none;
 position: absolute;
 top:-34px;
 right: 10px;
 color: white;
-font-size: 1.8em;}
+font-size: 1.8em;
+}
 
-{ margin-top: 20px;
-margin-left: 20px;
-margin-bottom: 20px;}
+
+#main-nav ul li a
+#main-nav ul li a:hover
+#center
+strong
 
 { position: relative;
 margin-top: 40px;
@@ -70,13 +80,6 @@ border-radius: 12px 12px 0px 0px;}
 { background-color: #777;
 height: 80px;
 clear: both;}
-
-{ list-style-type: none;
-margin: 0;
-padding: 0;
-float: left;
-position: relative;
-left:50%;}
 
 { min-height: 300px;
 width: 715px;

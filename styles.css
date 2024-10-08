@@ -106,12 +106,11 @@ h2 strong {
   color: #ccc;
 }
 
-#main-nav ul li a:hover { 
-  padding: 10px 25px;
-  display: block;
-  text-decoration: none;
-  color: #ccc;
+#main-nav ul li a:hover {
+  background-color: #ccc;
+  color: #333;
 }
+
 
 #center {
   width: 960px;

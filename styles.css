@@ -39,15 +39,15 @@ body {
   font-size: 1.8em;
 }
 
-#footer { 
-  min-height: 150px;
-  width: 200px;
-  float: left;
+#footer {
+  background-color: #777;
+  height: 80px;
+  clear: both;
 }
 
 #content-wrapper { 
   background-image: url("images/repeating.png");
-float: left;
+  float: left;
 }
 
 #main-content { 
@@ -58,7 +58,10 @@ float: left;
   margin-left: 15px;
 }
 
-h2 strong
+h2 strong { 
+  font-size: 2em;
+  font-weight: 900;
+}
 
 .image-r { 
   float: right;
@@ -69,10 +72,10 @@ h2 strong
   margin: 10px 0 10px 20px;
 }
 
-#side-content { 
+#side-content {
+  min-height: 150px;
+  width: 200px;
   float: left;
-  position: relative;
-  right: 50%;
 }
 
 #main-nav { 

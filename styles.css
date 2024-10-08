@@ -1,6 +1,6 @@
 body  
 
-#page-wrapper{ 
+#page-wrapper { 
   background-image: url("../images/black.jpg"); 
 }
 
@@ -10,7 +10,12 @@ body
 #header a#logo1 img
 #header #toplink
 #footer
-#content-wrapper
+
+#content-wrapper { 
+background-image: url("../images/repeating.png");
+float: left;
+}
+
 #main-content
 h2 strong
 .image-r
@@ -55,9 +60,6 @@ padding: 0;
 float: left;
 position: relative;
 left:50%;}
-
-{ background-image: url("../images/repeating.png");
-float: left;}
 
 { min-height: 300px;
 width: 715px;

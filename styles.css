@@ -6,19 +6,39 @@ body
 
 
 #header
-#header h1
+
+#header h1 { 
+  position: absolute;
+  left: 420px;
+  top:5px;
+  font-size: 3em;
+  font-family: 'Devonshire', cursive;
+  color: #E35335;
+}
+
 #header a#logo1 img
 #header #toplink
 #footer
 
 #content-wrapper { 
-background-image: url("../images/repeating.png");
+  background-image: url("../images/repeating.png");
 float: left;
 }
 
 #main-content
 h2 strong
-.image-r
+
+.image-r { 
+  float: right;
+  border: 2px solid blue;
+  width: 300px;
+  padding: 5px;
+  background-color: white;
+  margin: 10px 0 10px 20px;
+}
+
+
+
 #side-content
 #main-nav
 #main-nav ul
@@ -38,13 +58,6 @@ font-size: 1.8em;}
 { margin-top: 20px;
 margin-left: 20px;
 margin-bottom: 20px;}
-
-{ position: absolute;
-left: 420px;
-top:5px;
-font-size: 3em;
-font-family: 'Devonshire', cursive;
-color: #E35335;}
 
 { position: relative;
 margin-top: 40px;
@@ -69,13 +82,6 @@ margin-left: 15px;}
 
 { font-size: 2em;
 font-weight: 900;}
-
-{ float: right;
-border: 2px solid blue;
-width: 300px;
-padding: 5px;
-background-color: white;
-margin: 10px 0 10px 20px;}
 
 { min-height: 150px;
 width: 200px;

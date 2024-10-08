@@ -1,5 +1,9 @@
-body
-#page-wrapper
+body { background-image: url("../images/black.jpg"); }
+
+#page-wrapper { margin-top: 20px;
+margin-left: 20px;
+margin-bottom: 20px;}
+
 #header
 #header h1
 #header a#logo1 img
@@ -25,10 +29,6 @@ right: 10px;
 color: white;
 font-size: 1.8em;}
 
-{ margin-top: 20px;
-margin-left: 20px;
-margin-bottom: 20px;}
-
 { position: absolute;
 left: 420px;
 top:5px;
@@ -53,8 +53,6 @@ left:50%;}
 
 { background-image: url("../images/repeating.png");
 float: left;}
-
-{ background-image: url("../images/black.jpg"); }
 
 { min-height: 300px;
 width: 715px;

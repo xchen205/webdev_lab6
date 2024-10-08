@@ -1,4 +1,4 @@
-body { background-image: url("../images/black.jpg"); }
+body { background-image: url("/images/black.jpg"); }
 
 #page-wrapper { margin-top: 20px;
 margin-left: 20px;
@@ -8,9 +8,11 @@ margin-bottom: 20px;}
 #header h1
 #header a#logo1 img
 #header #toplink
-#footer
 #content-wrapper
-#main-content
+
+#main-content { background-image: url("/images/repeating.png");
+float: left;}
+
 h2 strong
 .image-r
 #side-content
@@ -21,6 +23,7 @@ h2 strong
 #main-nav ul li a:hover
 #center
 strong
+#footer
 
 { text-decoration: none;
 position: absolute;
@@ -50,9 +53,6 @@ padding: 0;
 float: left;
 position: relative;
 left:50%;}
-
-{ background-image: url("../images/repeating.png");
-float: left;}
 
 { min-height: 300px;
 width: 715px;

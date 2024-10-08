@@ -85,12 +85,25 @@ h2 strong {
 }
 
 #main-nav ul 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  left:50%;
+}
 
-#main-nav ul li
+#main-nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+}
 
-#main-nav ul li a { 
-  background-color: #ccc;
-  color: #333;
+#main-nav ul li a {
+  padding: 10px 25px;
+  display: block;
+  text-decoration: none;
+  color: #ccc;
 }
 
 #main-nav ul li a:hover { 
@@ -100,7 +113,10 @@ h2 strong {
   color: #ccc;
 }
 
-#center
+#center {
+  width: 960px;
+  text-align: center;
+}
 
 strong { 
   font-size: 2em;

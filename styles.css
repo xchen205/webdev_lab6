@@ -10,12 +10,9 @@ body {
 }
 
 #header { 
-  text-decoration: none;
-  position: absolute;
-  top:-34px;
-  right: 10px;
-  color: white;
-  font-size: 1.8em;
+  position: relative;
+  margin-top: 40px;
+  border-radius: 12px 12px 0px 0px;
 }
 
 #header h1 { 
@@ -27,11 +24,7 @@ body {
   color: #E35335;
 }
 
-#header a#logo1 img { 
-  background-color: #777;
-  height: 80px;
-  clear: both;
-}
+#header a#logo1 img 
 
 #header #toplink
 
@@ -71,9 +64,12 @@ h2 strong {
 }
 
 #main-nav { 
-  position: relative;
-  margin-top: 40px;
-  border-radius: 12px 12px 0px 0px;
+  text-decoration: none;
+  position: absolute;
+  top:-34px;
+  right: 10px;
+  color: white;
+  font-size: 1.8em;
 }
 
 #main-nav ul
@@ -95,6 +91,12 @@ h2 strong {
 strong
 
 #footer { 
+  background-color: #777;
+  height: 80px;
+  clear: both;
+}
+
+{ 
   padding: 10px 25px;
   display: block;
   text-decoration: none;

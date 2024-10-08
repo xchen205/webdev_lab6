@@ -85,23 +85,23 @@ h2 strong
 
 #main-nav ul li
 
-#main-nav ul li a
-#main-nav ul li a:hover
+#main-nav ul li a { 
+  background-color: #ccc;
+  color: #333;
+}
+
+#main-nav ul li a:hover { 
+  padding: 10px 25px;
+  display: block;
+  text-decoration: none;
+  color: #ccc;
+}
+
 #center
 
 strong { 
   font-size: 2em;
   font-weight: 900;
 }
-
-{ 
-  background-color: #ccc;
-  color: #333;
-}
-
-{ padding: 10px 25px;
-display: block;
-text-decoration: none;
-color: #ccc;}
 
 
